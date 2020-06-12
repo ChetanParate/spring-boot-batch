@@ -1,13 +1,13 @@
-package com.chetan.springbootbatchexample;
+package com.chetan.springbootbatch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootBatchExampleApplication {
+public class SpringBootBatchApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootBatchExampleApplication.class, args);
+		SpringApplication.run(SpringBootBatchApplication.class, args);
 	}
 
 }
