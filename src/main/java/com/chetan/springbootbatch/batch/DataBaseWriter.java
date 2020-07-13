@@ -19,7 +19,7 @@ public class DataBaseWriter implements ItemWriter<Employee> {
 	public void write(List<? extends Employee> employee) throws Exception {
 		System.out.println("Data saved for Employees: "+ employee);
 		
-		employeeRepository.save(employee);
+		employeeRepository.saveAll(employee);
 		
 		
 	}
